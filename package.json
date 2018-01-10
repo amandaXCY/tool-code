@@ -1,0 +1,22 @@
+{
+  "name": "tool-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dependencies-version-check.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandaXCY/tool-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandaXCY/tool-code/issues"
+  },
+  "homepage": "https://github.com/amandaXCY/tool-code#readme",
+  "devDependencies": {
+    "git-tags": "^0.2.4"
+  }
+}
