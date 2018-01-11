@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/amandaXCY/tool-code#readme",
   "devDependencies": {
-    "git-tags": "^0.2.4"
+    "chalk": "^2.3.0",
+    "cheerio": "^1.0.0-rc.2",
+    "cli-table": "^0.3.1",
+    "git-tags": "^0.2.4",
+    "request-promise-json": "^1.0.4"
   }
 }
