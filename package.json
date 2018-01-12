@@ -1,26 +1,30 @@
 {
-  "name": "tool-code",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dependencies-version-check.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amandaXCY/tool-code.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/amandaXCY/tool-code/issues"
-  },
-  "homepage": "https://github.com/amandaXCY/tool-code#readme",
-  "devDependencies": {
-    "chalk": "^2.3.0",
-    "cheerio": "^1.0.0-rc.2",
-    "cli-table": "^0.3.1",
-    "git-tags": "^0.2.4",
-    "request-promise-json": "^1.0.4"
-  }
+    "name": "tool-code",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dependencies-version-check.js",
+    "scripts": {
+        "check-dependencies": "node ./check-dependencies",
+        "check-version": "node ./check-version"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/amandaXCY/tool-code.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/amandaXCY/tool-code/issues"
+    },
+    "homepage": "https://github.com/amandaXCY/tool-code#readme",
+    "devDependencies": {
+        "chalk": "^2.3.0",
+        "cheerio": "^1.0.0-rc.2",
+        "cli-table": "^0.3.1",
+        "git-tags": "^0.2.4",
+        "request-promise-json": "^1.0.4"
+    },
+    "dependencies": {
+        "query-string": "^5.0.1"
+    }
 }
